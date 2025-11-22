@@ -1,36 +1,114 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🌐 IP Calculator
 
-## Getting Started
+<div align="center">
 
-First, run the development server:
+<img src="public/globe.svg" alt="App Icon" width="120" />
+
+<br />
+
+![Next.js](https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![License](https://img.shields.io/badge/license-MIT-blue.svg?style=for-the-badge)
+
+<br />
+
+> A modern, high-performance IP Subnet Calculator built with **Next.js 16**, **TypeScript**, and **Tailwind CSS**.
+
+<a href="https://ip-calculator-hazel.vercel.app/">
+  <img src="https://img.shields.io/badge/Live_Demo-Visit_App-2ea44f?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Demo" />
+</a>
+
+[Features](#-features) • [Tech Stack](#-tech-stack) • [Getting Started](#-getting-started) • [Screenshots](#-screenshots) • [Contributing](#-contributing)
+
+</div>
+
+---
+
+## ✨ Features
+
+- **🚀 Real-time Calculation**: Instantly calculate network details as you type.
+- **🎯 Precision**: Accurate results for Network Address, Broadcast Address, and Host Ranges.
+- **🔢 Subnetting / VLSM**: Easily divide networks into smaller subnets with a visual table.
+- **🌗 Dark Mode**: Fully responsive dark and light mode support.
+- **🎨 Beautiful UI**: Modern, glassmorphism-inspired design with smooth animations and gradients.
+- **⚡ Fast**: Built on the latest Next.js stack for optimal performance.
+
+## 🛠️ Tech Stack
+
+- **Framework**: [Next.js 16](https://nextjs.org/) (App Router)
+- **Language**: [TypeScript](https://www.typescriptlang.org/)
+- **Styling**: [Tailwind CSS v4](https://tailwindcss.com/)
+- **Icons**: [Lucide React](https://lucide.dev/)
+- **Utils**: `clsx`, `tailwind-merge`
+
+## 🚀 Getting Started
+
+Follow these steps to run the project locally:
+
+### Prerequisites
+
+- Node.js 18+ installed
+- npm, yarn, pnpm, or bun
+
+### Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/your-username/ip-calculator.git
+   cd ip-calculator
+   ```
+
+2. **Install dependencies**
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
+
+3. **Run the development server**
+   ```bash
+   npm run dev
+   ```
+
+4. **Open your browser**
+   Navigate to [http://localhost:3000](http://localhost:3000) to see the app in action.
+
+## 📸 Screenshots
+
+<div align="center">
+  <img src="screenshots/1.png" alt="Dark Mode" width="45%" />
+  <img src="screenshots/2.png" alt="Light Mode" width="45%" />
+</div>
+
+## 🧪 Running Tests
+
+To verify the IP calculation logic, run the included test script:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npx tsx app/utils/test-ip-logic.ts
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🤝 Contributing
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Contributions are welcome! Please feel free to submit a Pull Request.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. Fork the project
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-## Learn More
+## 📝 License
 
-To learn more about Next.js, take a look at the following resources:
+Distributed under the MIT License. See `LICENSE` for more information.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+<p align="center">
+  <a href="#-ip-calculator">Back to Top ⬆️</a>
+</p>
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+<p align="center">
+  Made with ❤️ by <a href="https://github.com/kaua-alves-queiros">Kauã Alves Queirós</a>
+</p>
